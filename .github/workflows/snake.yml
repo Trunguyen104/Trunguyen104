@@ -24,9 +24,9 @@ jobs:
           github_user_name: ${{ github.repository_owner }}
             # color_snake: #002147 là mã màu Oxford Blue chuẩn
           # color_dots: Giữ nguyên dải màu xanh dương từ nhạt đến đậm
-          outputs: |
-            dist/snake.svg?color_snake=#002147
-          # outputs: dist/snake.svg?palette=github-dark
+          # outputs: |
+          #   dist/snake.svg?color_snake=#002147
+          outputs: dist/snake.svg?palette=github-dark&color_snake=#002147
 
 
       - name: push snake.svg to the output branch
