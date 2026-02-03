@@ -22,11 +22,11 @@ jobs:
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
-          # color_snake: Màu xanh Cyan sáng để nổi bật khi di chuyển
-          # color_dots: Chuyển từ xám nhạt -> xanh dương rất đậm
+        # color_snake: #002147 là mã màu Oxford Blue chuẩn
+          # color_dots: Giữ nguyên dải màu xanh dương từ nhạt đến đậm
           outputs: |
-            dist/snake.svg?color_snake=#00d2ff&color_dots=#ebedf0,#a5d8ff,#4dabf7,#1971c2,#003566
-
+            dist/snake.svg?color_snake=#002147&color_dots=#ebedf0,#a5d8ff,#4dabf7,#1971c2,#003566
+            
       - name: push snake.svg to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
