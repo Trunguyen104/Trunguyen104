@@ -58,15 +58,10 @@
 
 ### 📊 GitHub Activity
 
-<div align="center">
-
-  <img src="https://github-readme-stats.vercel.app/api?username=Trunguyen104&amp;show_icons=true&amp;theme=tokyonight&amp;hide_border=true" height="150" alt="GitHub Stats" />
-
-  &nbsp;
-
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Trunguyen104&amp;layout=compact&amp;theme=tokyonight&amp;hide_border=true" height="150" alt="Top Languages" />
-
-</div>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Trunguyen104&show_icons=true&theme=tokyonight&hide_border=true" height="165" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Trunguyen104&layout=compact&theme=tokyonight&hide_border=true" height="165" alt="Top Languages" />
+</p>
 
 ---
 
